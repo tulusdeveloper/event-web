@@ -1,11 +1,12 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
+import GoogleMapIframe from "@/components/GoogleMapFrane";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Contact Page | Bliss & Blooms Contact Page",
+  description: "This is Contact Page for Bliss and Blooms",
   // other metadata
 };
 
@@ -18,6 +19,7 @@ const ContactPage = () => {
       />
 
       <Contact />
+      <GoogleMapIframe/>
     </>
   );
 };
