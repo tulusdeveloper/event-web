@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About Us"
+        description="We are a premier event planning and design company based in Eldoret, Kenya. We specialize in weddings, corporate events, private parties, and more. Our team of experienced event planners and designers will work with you to create a truly unforgettable event that reflects your unique style and vision.."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
