@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sarah & Michael",
+    designation: "Wedding Couple",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Bliss & Blooms truly made our dream wedding a reality. Their attention to detail and creativity were unparalleled. We were blown away by the stunning decor and seamless execution of our special day.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Emily Johnson",
+    designation: "Corporate Event Client",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with Bliss & Blooms for our annual corporate gala was an absolute pleasure. Their professionalism and ability to bring our vision to life exceeded our expectations. Our guests were thoroughly impressed",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Tom & Lily",
+    designation: "Private Party Hosts",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Bliss & Blooms transformed our backyard into an enchanting oasis for our family celebration. Their creativity and attention to detail made our event truly memorable for all our guests.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Discover what our satisfied clients have to say about their experience with Bliss & Blooms."
           center
         />
 
