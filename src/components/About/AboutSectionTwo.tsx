@@ -28,29 +28,38 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Vision:
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The vision of Bliss & Blooms is to be the leading event
+                  planning and design company in Kenya. They aspire to create
+                  beautiful and memorable events that reflect our clients unique
+                  style and vision. They also aim to provide their clients with
+                  the highest level of service and attention to detail.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Mission:
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  The mission of Bliss & Blooms is to create beautiful and
+                  memorable events that reflect their clients unique style and
+                  vision. They believe that every event should be a celebration,
+                  and they are dedicated to making our clients events the best
+                  they can be. We are committed to providing their clients with
+                  the best possible experience, and they are always looking for
+                  new ways to make their events even more special.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Why Choose Us?
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  We have over 10 years of experience in the event planning
+                  industry, and our team of passionate event planners and
+                  designers is dedicated to exceeding your expectations.
                 </p>
               </div>
             </div>
