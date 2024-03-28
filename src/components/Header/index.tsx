@@ -93,7 +93,7 @@ const Header = () => {
                         />
                       </svg>
                       <span className="text-base font-medium text-dark dark:text-white">
-                      blissnbloomsevents@gmail.com
+                        blissnbloomsevents@gmail.com
                       </span>
                     </div>
                     <div className="flex items-center">
@@ -112,7 +112,7 @@ const Header = () => {
                         />
                       </svg>
                       <span className="text-base font-medium text-dark dark:text-white">
-                      +254 710 391 049
+                        +254 710 391 049
                       </span>
                     </div>
                     <div className="flex items-center">
@@ -137,7 +137,7 @@ const Header = () => {
                         />
                       </svg>
                       <span className="text-base font-medium text-dark dark:text-white">
-                      Eldoret, Kenya Opp. Eldoret Premier, Elgon View
+                        Eldoret, Kenya Opp. Eldoret Premier, Elgon View
                       </span>
                     </div>
                   </div>
@@ -178,10 +178,10 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex rounded-lg px-4 py-2 text-base transition-colors duration-300 ${
                               usePathName === menuItem.path
-                                ? "text-pink-600 dark:text-pink-600"
-                                : "text-dark hover:text-pink-600 dark:text-white/70 dark:hover:text-pink-400"
+                                ? "bg-pink-600 text-white hover:bg-pink-700"
+                                : "bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
                             }`}
                           >
                             {menuItem.title}
@@ -190,7 +190,7 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                              className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
                               <span className="pl-3">
@@ -227,18 +227,6 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                {/* <Link
-                  href="/signin"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
-                >
-                  Sign In
-                </Link>
-                <Link
-                  href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Sign Up
-                </Link> */}
                 <div>
                   <ThemeToggler />
                 </div>
