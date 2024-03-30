@@ -20,7 +20,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 1,
-    imgSrc: "/images/services/BPK-101.jpg",
+    imgSrc: "/images/services/BPK-89.jpg",
     imgAlt: "Furniture Rentals",
     title: "Linen Rentals",
     paragraph:
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 1,
-    imgSrc: "/images/services/DSC_5133.jpg",
+    imgSrc: "/images/services/b&b1.jpg",
     imgAlt: "Attention to Details",
     title: "Attention to Details",
     paragraph:

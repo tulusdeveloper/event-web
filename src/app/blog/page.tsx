@@ -14,7 +14,7 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Our Work"
+        pageName="Our Latest Work"
         description="At Bliss & Blooms, we curate exceptional events that leave a lasting
         impression. From intimate gatherings to grand celebrations, our team
         of dedicated professionals brings your vision to life with meticulous
