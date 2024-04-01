@@ -14,7 +14,7 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
+        pageName="Contact Us"
         description="Get in touch with Bliss and Blooms for all your wedding and event planning needs. Our experienced team is here to help you create unforgettable moments that exceed your expectations."
       />
 
